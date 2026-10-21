@@ -1,0 +1,34 @@
+{
+    "identifier": "glitter-ckeditor5_comment",
+    "vendor": "Glitter.kr",
+    "name": {
+        "ko": "Glitter CKEditor5 Comment",
+        "en": "Glitter CKEditor5 Comment"
+    },
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": {
+        "ko": "sirsoft-board 댓글 입력창에 CKEditor 5 서식 편집을 제공하고 저장·렌더 시 허용 목록으로 댓글 HTML을 정제합니다.",
+        "en": "Adds CKEditor 5 rich-text editing to sirsoft-board comment fields and sanitizes comment HTML on save and render."
+    },
+    "g7_version": ">=7.0.10",
+    "dependencies": {
+        "modules": {},
+        "plugins": {
+            "sirsoft-ckeditor5": ">=1.0.3"
+        }
+    },
+    "github_url": "https://github.com/glitter-node/glitter-ckeditor5_comment",
+    "github_changelog_url": "https://github.com/glitter-node/glitter-ckeditor5_comment/blob/main/CHANGELOG.md",
+    "assets": {
+        "js": {
+            "entry": "resources/js/index.js",
+            "output": "dist/js/plugin.iife.js"
+        },
+        "handlers": true
+    },
+    "loading": {
+        "strategy": "global",
+        "priority": 121
+    }
+}
